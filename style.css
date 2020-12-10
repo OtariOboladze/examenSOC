@@ -1,28 +1,31 @@
-*{
-    border: solid red 0.1px ;
+* {
+  border: solid red 0.1px;
 }
 
-#container{
-    width: 60%;
-    margin: auto;
+#container {
+  width: 60%;
+  margin: auto;
 }
 
-header p{
-text-align: center;
-}
-
-
-header{
+header {
     height: 80px;
     background-color: rgba(0, 0, 0, 0.1);
-    width: 100%;
-    display: inline-block;
-
+}
+header p {
+  text-align: center;
 }
 
-nav{
-    width: 100%;
+nav {
+    height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+main{
     display: flex;
     justify-content: center;
 }
 
+main div{
+    width: 50%;
+}
