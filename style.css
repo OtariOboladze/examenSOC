@@ -1,0 +1,28 @@
+*{
+    border: solid red 0.1px ;
+}
+
+#container{
+    width: 60%;
+    margin: auto;
+}
+
+header p{
+text-align: center;
+}
+
+
+header{
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: inline-block;
+
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
