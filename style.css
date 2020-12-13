@@ -1,5 +1,10 @@
 * {
   border: solid red 0.1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 #container {
@@ -7,25 +12,36 @@
   margin: auto;
 }
 
-header {
-    height: 80px;
-    background-color: rgba(0, 0, 0, 0.1);
+header, nav, main, footer {
+  margin: 10px;
 }
+
+header {
+  height: 80px;
+}
+
 header p {
   text-align: center;
 }
 
 nav {
-    height: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
 }
 
-main{
-    display: flex;
-    justify-content: center;
+main {
+  display: flex;
+  justify-content: center;
 }
 
-main div{
-    width: 50%;
+main div {
+  width: 50%;
+}
+
+footer{
+  height: 80px;
+}
+footer p {
+  text-align: center;
 }
