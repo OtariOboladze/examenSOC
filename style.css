@@ -18,6 +18,7 @@ header, nav, main, footer {
 
 header {
   height: 80px;
+  border-radius: 10px;
 }
 
 header p {
