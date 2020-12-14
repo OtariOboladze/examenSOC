@@ -89,3 +89,13 @@ footer p {
   background-color: yellow;
   margin: 20px auto;
 }
+
+#right img {
+  float: left;
+  width: 50%;
+  margin: 0px 10px 5px 0px;
+}
+
+#fonde {
+  display: inline-block;
+}
