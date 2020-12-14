@@ -29,7 +29,7 @@ header p {
   margin: 5px;
 }
 
-header, nav, main{
+header, nav, main {
   border-radius: 10px;
   border: solid 3px blue;
   background-color: whitesmoke;
@@ -41,17 +41,17 @@ nav {
   justify-content: center;
 }
 
-.button{
+.button {
   width: 25%;
   height: 30px;
   margin-top: 5px;
   border: solid 1px blue;
   border-radius: 5px;
   background-color: sandybrown;
-  text-decoration: none ;
+  text-decoration: none;
 }
 
-.button:hover{
+.button:hover {
   background-color: seagreen;
 }
 
@@ -76,4 +76,16 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+#submit {
+  display: block;
+  margin: auto;
+}
+
+#caja_amarillo {
+  height: 80px;
+  width: 80%;
+  background-color: yellow;
+  margin: 20px auto;
 }
