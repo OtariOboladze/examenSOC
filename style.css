@@ -29,10 +29,10 @@ header p {
   margin: 5px;
 }
 
-header, nav, main {
+header, nav, main, footer {
   border-radius: 10px;
   border: solid 3px blue;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 nav {
@@ -98,4 +98,25 @@ footer p {
 
 #fonde {
   display: inline-block;
+}
+
+#left {
+  background-color: white;
+  margin: 10px 5px 10px 10px;
+  border-radius: 10px;
+}
+
+#right {
+  background-color: white;
+  margin: 10px 10px 10px 5px;
+  border-radius: 10px;
+}
+
+footer{
+  height: 80px;
+  border-radius: 20px;
+}
+
+footer p{
+  text-align: center;
 }
