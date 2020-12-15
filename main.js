@@ -17,7 +17,7 @@ function display_input() {
   var only_numbers = /^[0-9]+$/;
   document.getElementById("texto").style.backgroundColor = "white";
   document.getElementById("numeros").style.backgroundColor = "white";
-  if (document.getElementById("texto").value.match(any_number)) {
+  if ((document.getElementById("texto").value.match(any_number)) || (document.getElementById("texto").value == '')) {
     document.getElementById("texto").style.backgroundColor = "yellow";
     alert("formato de texto no es correcto, se admite solo las letras");
   } else if (!document.getElementById("numeros").value.match(only_numbers)) {
